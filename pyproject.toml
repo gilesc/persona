@@ -1,0 +1,19 @@
+[build-system]
+
+reuqires = ["setuptools>=45", "wheel"]
+
+[project]
+name = "persona"
+readme = "README.rst"
+license = {file = "LICENSE"}
+authors = [{name = "Cory Giles", email = "cory.b.giles@gmail.com"}]
+urls = {repository = "https://github.com/gilesc/persona"}
+
+dynamic = ["version"]
+requires-python = ">3.10"
+
+dependencies = [
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
